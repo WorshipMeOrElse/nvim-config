@@ -24,16 +24,12 @@ local function time()
 	return os.date("%I:%M%p")
 end
 
-local function empty()
-	return "ﱢ"
-end
-
 require("lualine").setup({
 	options = {
 		icons_enabled = true,
 		theme = theme,
 		component_separators = { left = "", right = "" },
-		section_separators = { left = "", right = "" },
+		section_separators = { left = "", right = " " },
 		disabled_filetypes = {
 			statusline = {},
 			winbar = {},
@@ -50,8 +46,8 @@ require("lualine").setup({
 	sections = {
 		lualine_a = { "mode" },
 		lualine_b = { "diagnostics", "branch" },
-		lualine_c = { empty },
-		lualine_x = { empty },
+		lualine_c = {},
+		lualine_x = {},
 		lualine_y = { "diff", "filetype" },
 		lualine_z = { time },
 	},
