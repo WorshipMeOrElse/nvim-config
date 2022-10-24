@@ -3,7 +3,10 @@ require("null-ls").setup({
 	sources = {
 		require("null-ls").builtins.formatting.stylua,
 		require("null-ls").builtins.diagnostics.selene.with({
-			extra_args = { "--config", vim.fn.expand("~/AppData/Local/nvim-data/roblox/null-ls/selene.toml") },
+			extra_args = {
+				"--config",
+				"C:/Users/user/AppData/Local/nvim-data/roblox/null-ls/selene.toml",
+			},
 		}),
 
 		require("null-ls").builtins.formatting.prettier,
