@@ -78,6 +78,7 @@ return packer.startup(function(use)
 
 	-- linting and formatting --
 	use("jose-elias-alvarez/null-ls.nvim")
+	use("williamboman/mason.nvim")
 
 	-- tree --
 	use({

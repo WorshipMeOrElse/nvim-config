@@ -8,6 +8,7 @@ require("user.aesthetics.lualine")
 require("user.aesthetics.startup")
 
 require("user.scripting.autopairs")
+require("user.scripting.mason")
 require("user.scripting.completion")
 require("user.scripting.null")
 require("user.scripting.toggleterm")
