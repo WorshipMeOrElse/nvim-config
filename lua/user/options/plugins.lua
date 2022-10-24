@@ -79,6 +79,9 @@ return packer.startup(function(use)
 	-- linting and formatting --
 	use("jose-elias-alvarez/null-ls.nvim")
 
+	-- shit installer --
+	use("williamboman/mason.nvim")
+
 	-- tree --
 	use({
 		"kyazdani42/nvim-tree.lua",

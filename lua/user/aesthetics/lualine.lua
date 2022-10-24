@@ -7,6 +7,7 @@ local colors = {
 	tan = "#e2ddcc",
 }
 
+-- currently unused cuz auto works better and its obv auto
 local theme = {
 	normal = {
 		a = { fg = colors.black, bg = colors.tan },
@@ -27,7 +28,7 @@ end
 require("lualine").setup({
 	options = {
 		icons_enabled = true,
-		theme = theme,
+		theme = "auto", -- theme,
 		component_separators = { left = "", right = "" },
 		section_separators = { left = "", right = " " },
 		disabled_filetypes = {
