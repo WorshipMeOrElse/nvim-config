@@ -67,7 +67,6 @@ return packer.startup(function(use)
 
 	-- search --
 	use("nvim-telescope/telescope.nvim")
-	use("nvim-telescope/telescope-file-browser.nvim")
 
 	-- syntax highlighting --
 	use({
@@ -78,7 +77,11 @@ return packer.startup(function(use)
 
 	-- linting and formatting --
 	use("jose-elias-alvarez/null-ls.nvim")
+
+	-- installers --
+	use("jayp0521/mason-null-ls.nvim")
 	use("williamboman/mason.nvim")
+	use("williamboman/mason-lspconfig.nvim")
 
 	-- tree --
 	use({
@@ -110,6 +113,11 @@ return packer.startup(function(use)
 
 	-- poo poo LaTeX --
 	use("lervag/vimtex")
+
+	-- orgmode :3 --
+	use("nvim-orgmode/orgmode")
+	use("lukas-reineke/headlines.nvim")
+	use("akinsho/org-bullets.nvim")
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()

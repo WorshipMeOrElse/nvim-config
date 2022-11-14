@@ -17,6 +17,10 @@ keymap("n", "<C-Down>", ":resize +2<CR>", opts)
 keymap("n", "<C-Left>", ":vertical resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize +2<CR>", opts)
 
+-- tab shit --
+keymap("n", "<C-\\>", ":vsplit<cr>", opts)
+keymap("n", "<M-\\>", ":split<cr>", opts)
+
 -- Plugin keybinds :D --
 keymap("n", "<C-b>", ":NvimTreeFocus<cr>", opts)
 keymap("n", "<C-f>", ":Telescope<cr>", opts)
@@ -24,6 +28,4 @@ keymap("n", "<S-b>", ":NvimTreeClose<cr>", opts)
 
 keymap("n", "<S-l>", ":BufferLineCycleNext<cr>", opts)
 keymap("n", "<S-h>", ":BufferLineCyclePrev<cr>", opts)
-keymap("n", "<C-\\>", ":vsplit<cr>", opts)
-
 keymap("n", "<S-w>", ":Bdelete<cr>", opts)
