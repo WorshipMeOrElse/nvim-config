@@ -134,10 +134,25 @@ _G.packer_plugins = {
     path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["headlines.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\headlines.nvim",
+    url = "https://github.com/lukas-reineke/headlines.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["mason-lspconfig.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-lspconfig.nvim",
+    url = "https://github.com/williamboman/mason-lspconfig.nvim"
+  },
+  ["mason-null-ls.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason-null-ls.nvim",
+    url = "https://github.com/jayp0521/mason-null-ls.nvim"
   },
   ["mason.nvim"] = {
     loaded = true,
@@ -189,6 +204,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
+  ["org-bullets.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\org-bullets.nvim",
+    url = "https://github.com/akinsho/org-bullets.nvim"
+  },
+  orgmode = {
+    loaded = true,
+    path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\orgmode",
+    url = "https://github.com/nvim-orgmode/orgmode"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -203,11 +228,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\startup.nvim",
     url = "https://github.com/startup-nvim/startup.nvim"
-  },
-  ["telescope-file-browser.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\seanj\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope-file-browser.nvim",
-    url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

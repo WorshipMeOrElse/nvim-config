@@ -112,6 +112,7 @@ cmp.setup({
 	sources = {
 		{ name = "nvim_lsp" },
 		{ name = "luasnip" },
+		{ name = "orgmode" },
 		{ name = "buffer" },
 		{ name = "path" },
 	},
@@ -159,15 +160,3 @@ highlight! link CmpItemKindUnit CmpItemKindKeyword
 
 augroup END
 ]])
-local capabilities = require("cmp_nvim_lsp").default_capabilities()
--- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-require("lspconfig").sumneko_lua.setup({
-	capabilities = capabilities,
-})
-
-require("lspconfig").tsserver.setup({
-	on_attach = function(client, _)
-		client.server_capabilities.document_formatting = false
-	end,
-	capabilities = capabilities,
-})

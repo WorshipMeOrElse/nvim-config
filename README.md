@@ -1,1 +1,1 @@
-jesus christ dude why is emacs so hard to configure
+use the retina version of [this font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode)

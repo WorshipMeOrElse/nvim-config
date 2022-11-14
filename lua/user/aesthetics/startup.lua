@@ -109,7 +109,7 @@ require("startup").setup({
 		title = "Basic Commands",
 		margin = 5,
 		content = {
-			{ " Find File", "Telescope find_files", "leader>f" },
+			{ " Find File", "Telescope find_files", "<leader>f" },
 			{ " Find Word", "Telescope live_grep", "<leader>w" },
 			{ " Recent Files", "Telescope oldfiles", "<leader>r" },
 			{ " File Browser", "Telescope file_browser", "<leader>b" },
