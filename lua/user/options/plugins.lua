@@ -83,9 +83,6 @@ return packer.startup(function(use)
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig.nvim")
 
-	-- shit installer --
-	use("williamboman/mason.nvim")
-
 	-- tree --
 	use({
 		"kyazdani42/nvim-tree.lua",
@@ -116,11 +113,6 @@ return packer.startup(function(use)
 
 	-- poo poo LaTeX --
 	use("lervag/vimtex")
-
-	-- orgmode :3 --
-	use("nvim-orgmode/orgmode")
-	use("lukas-reineke/headlines.nvim")
-	use("akinsho/org-bullets.nvim")
 
 	if PACKER_BOOTSTRAP then
 		require("packer").sync()
