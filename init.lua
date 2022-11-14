@@ -10,7 +10,6 @@ require("user.aesthetics.startup")
 require("user.scripting.autopairs")
 require("user.scripting.mason")
 require("user.scripting.completion")
--- require("user.scripting.null") also being replaced
 require("user.scripting.toggleterm")
 require("user.scripting.treesitter")
 
