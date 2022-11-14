@@ -83,6 +83,9 @@ return packer.startup(function(use)
 	use("williamboman/mason.nvim")
 	use("williamboman/mason-lspconfig.nvim")
 
+	-- shit installer --
+	use("williamboman/mason.nvim")
+
 	-- tree --
 	use({
 		"kyazdani42/nvim-tree.lua",
