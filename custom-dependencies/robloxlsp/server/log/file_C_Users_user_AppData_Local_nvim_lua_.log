@@ -1,0 +1,609 @@
+[16:05:44.463][info] [#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:54]: Lua Lsp startup, root: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[16:05:44.478][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:55]: ROOT:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[16:05:44.478][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:56]: LOGPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log
+[16:05:44.478][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:57]: METAPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/meta
+[16:05:44.603][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[16:05:44.603][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[16:05:44.603][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[16:05:44.603][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[16:05:44.603][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.520 MB
+        # 00 : 1.520 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:05:44.713][debug][#0:script\provider\client.lua:73]: Client init	{
+    capabilities = {
+        callHierarchy = {
+            dynamicRegistration = false,
+        },
+        textDocument = {
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [01] = "",
+                            [02] = "Empty",
+                            [03] = "QuickFix",
+                            [04] = "Refactor",
+                            [05] = "RefactorExtract",
+                            [06] = "RefactorInline",
+                            [07] = "RefactorRewrite",
+                            [08] = "Source",
+                            [09] = "SourceOrganizeImports",
+                            [10] = "quickfix",
+                            [11] = "refactor",
+                            [12] = "refactor.extract",
+                            [13] = "refactor.inline",
+                            [14] = "refactor.rewrite",
+                            [15] = "source",
+                            [16] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                dynamicRegistration = false,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                    },
+                },
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = false,
+                    deprecatedSupport = false,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    preselectSupport = false,
+                    snippetSupport = false,
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                contextSupport = false,
+                dynamicRegistration = false,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = false,
+            },
+            documentSymbol = {
+                dynamicRegistration = false,
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = false,
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+            },
+            references = {
+                dynamicRegistration = false,
+            },
+            rename = {
+                dynamicRegistration = false,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                dynamicRegistration = false,
+                signatureInformation = {
+                    activeParameterSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = false,
+                willSave = false,
+                willSaveWaitUntil = false,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = false,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = false,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            symbol = {
+                dynamicRegistration = false,
+                hierarchicalWorkspaceSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                resourceOperations = {
+                    [1] = "rename",
+                    [2] = "create",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Neovim",
+        version = "0.8.0",
+    },
+    initializationOptions = {
+    },
+    processId = 10732,
+    rootPath = "C:\\Users\\user\\AppData\\Local\\nvim\\lua\\",
+    rootUri = "file:///C:/Users/user/AppData/Local/nvim/lua/",
+    trace = "off",
+    workspaceFolders = {
+        [1] = {
+            name = "C:/Users/user/AppData/Local/nvim/lua/",
+            uri = "file:///C:/Users/user/AppData/Local/nvim/lua/",
+        },
+    },
+}
+[16:05:44.713][info] [#0:script\language.lua:135]: VSC language: nil
+[16:05:44.713][info] [#0:script\language.lua:136]: LS  language: en-us
+[16:05:44.713][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/user/AppData/Local/nvim/lua/
+[16:05:44.713][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log/file_C_Users_user_AppData_Local_nvim_lua_.log
+[16:05:44.759][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua
+[16:05:44.759][warn] [#0:script\provider\provider.lua:52]: No config?	{
+}
+[16:05:45.994][debug][#0:script\provider\semantic-tokens.lua:111]: Refresh semantic tokens.
+[16:05:45.994][debug][#0:script\proto\proto.lua:131]: Method [initialized] takes [1.243]sec.
+[16:05:45.994][debug][#0:script\proto\proto.lua:131]: Method [textDocument/didOpen] takes [1.240]sec.
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:302]: Preload start.
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	1
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	2
+[16:05:45.994][warn] [#0:script\provider\provider.lua:52]: No config?	{
+}
+[16:05:45.994][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [1.241]sec.
+[16:05:45.994][warn] [#0:script\provider\provider.lua:52]: No config?	{
+}
+[16:05:45.994][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [1.241]sec.
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:312]: Scan files at:	C:\Users\user\AppData\Local\nvim\lua
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/yuck.lua , size = 0.084 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/whichkey.lua , size = 0.136 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/theme.lua , size = 1.205 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/treesitter.lua , size = 0.199 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua , size = 0.232 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/nvim-notify.lua , size = 0.143 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua , size = 1.117 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/luatree.lua , size = 0.305 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua , size = 0.622 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/diffview.lua , size = 0.092 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/lualine.lua , size = 2.502 KB
+[16:05:45.994][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/colorizer.lua , size = 0.143 KB
+[16:05:46.009][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/bufferline.lua , size = 0.332 KB
+[16:05:46.009][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/packwrap.lua , size = 0.438 KB
+[16:05:46.009][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/init.lua , size = 0.475 KB
+[16:05:46.009][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/completion.lua , size = 3.994 KB
+[16:05:46.009][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/options.lua , size = 3.328 KB
+[16:05:46.009][info] [#0:script\workspace\workspace.lua:315]: Found 17 files.
+[16:05:46.009][info] [#0:script\workspace\workspace.lua:317]: Loaded 17/17 files
+[16:05:46.009][info] [#0:script\workspace\workspace.lua:326]: Preload finish.
+[16:05:47.775][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/theme.lua	20
+[16:05:47.791][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/bufferline.lua	6
+[16:05:47.791][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/luatree.lua	4
+[16:05:47.806][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/nvim-notify.lua	1
+[16:05:47.806][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:05:47.822][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/options.lua	2
+[16:05:47.853][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/completion.lua	2
+[16:05:47.869][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/lualine.lua	3
+[16:05:47.869][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/init.lua	2
+[16:05:47.900][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:05:47.916][debug][#0:script\provider\diagnostic.lua:386]: 全文诊断耗时：	1.184
+[16:06:45.197][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 46.176 MB
+        # 00 : 39.197 MB
+        # 01 : 1.800 MB
+        # 02 : 1.686 MB
+        # 03 : 1.693 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     29
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      29
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:07:44.744][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 46.510 MB
+        # 00 : 39.531 MB
+        # 01 : 1.800 MB
+        # 02 : 1.686 MB
+        # 03 : 1.693 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     29
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      29
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:08:45.353][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 46.842 MB
+        # 00 : 39.863 MB
+        # 01 : 1.800 MB
+        # 02 : 1.686 MB
+        # 03 : 1.693 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     29
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      29
+    --------------- Cache ---------------
+        Total: 3
+        Dead:  2
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:09:07.900][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	7
+[16:09:08.119][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	6
+[16:09:08.353][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	4
+[16:09:08.634][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:08.900][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	4
+[16:09:09.478][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	4
+[16:09:11.088][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	12
+[16:09:11.463][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	11
+[16:09:12.759][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	11
+[16:09:12.900][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	10
+[16:09:18.509][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:09:19.681][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	1.031
+[16:09:20.166][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:20.494][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:20.634][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:09:20.681][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:21.291][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:09:21.447][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:09:21.494][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:09:21.603][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:21.697][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:21.806][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:21.853][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:22.072][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:22.134][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:22.181][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:22.353][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.041][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.306][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.384][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.478][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.525][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.650][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.838][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.900][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:23.978][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:24.072][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:24.150][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:24.338][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:24.431][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:24.697][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0029999999999859
+[16:09:25.416][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:25.603][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:25.759][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:26.181][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:26.322][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:26.338][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:26.697][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	4
+[16:09:26.791][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:26.869][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:27.103][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:27.228][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:27.369][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:27.447][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:27.603][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:27.775][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	4
+[16:09:27.900][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:28.041][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:28.197][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:28.509][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:28.713][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:28.744][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:28.759][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:29.009][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:29.181][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:29.322][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:29.713][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:29.838][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:30.009][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:30.275][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:30.463][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:30.603][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	3
+[16:09:30.619][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:30.994][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	4
+[16:09:31.056][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:31.119][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:31.197][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:31.322][warn] [#0:script\provider\provider.lua:526]: Completion takes 0.109 sec.
+[16:09:31.353][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:31.478][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:31.541][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:31.634][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:31.822][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:31.869][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:31.900][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:32.088][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:32.244][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:32.431][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:33.119][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	7
+[16:09:33.447][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:33.572][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:33.728][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:33.822][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:33.869][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:33.947][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	6
+[16:09:33.978][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	7
+[16:09:34.072][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:34.134][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:34.228][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:34.306][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:34.400][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:34.525][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	7
+[16:09:34.588][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:35.056][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:35.197][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	7
+[16:09:35.400][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	8
+[16:09:35.509][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:35.588][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	9
+[16:09:35.666][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:09:35.759][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:35.791][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.00099999999997635
+[16:09:35.822][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:09:36.791][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:42.806][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:42.838][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:42.963][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:09:43.853][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:09:44.853][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 47.266 MB
+        # 00 : 40.287 MB
+        # 01 : 1.800 MB
+        # 02 : 1.686 MB
+        # 03 : 1.693 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     39
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      39
+    --------------- Cache ---------------
+        Total: 7
+        Dead:  6
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:10:44.494][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 44.445 MB
+        # 00 : 37.466 MB
+        # 01 : 1.800 MB
+        # 02 : 1.686 MB
+        # 03 : 1.693 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     3
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      3
+    --------------- Cache ---------------
+        Total: 2
+        Dead:  1
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:11:45.025][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 44.779 MB
+        # 00 : 37.800 MB
+        # 01 : 1.800 MB
+        # 02 : 1.686 MB
+        # 03 : 1.693 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     3
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      3
+    --------------- Cache ---------------
+        Total: 2
+        Dead:  1
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:12:18.447][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:12:18.588][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:12:19.291][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:12:20.306][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:12:21.259][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	2
+[16:12:21.994][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:12:22.322][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:12:22.713][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua	1
+[16:12:23.338][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
+[16:12:44.650][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 47.067 MB
+        # 00 : 40.088 MB
+        # 01 : 1.800 MB
+        # 02 : 1.686 MB
+        # 03 : 1.693 MB
+        # 04 : 1.800 MB
+    --------------- Coroutine ---------------
+        Total:     39
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      39
+    --------------- Cache ---------------
+        Total: 7
+        Dead:  6
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================

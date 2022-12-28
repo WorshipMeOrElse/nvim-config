@@ -1,0 +1,282 @@
+[16:07:39.975][info] [#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:54]: Lua Lsp startup, root: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[16:07:39.975][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:55]: ROOT:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[16:07:39.975][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:56]: LOGPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log
+[16:07:39.975][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:57]: METAPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/meta
+[16:07:40.116][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[16:07:40.116][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[16:07:40.116][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[16:07:40.116][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[16:07:40.116][debug][#0:script\service\service.lua:136]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 1.520 MB
+        # 00 : 1.520 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    --------------- Proto ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[16:07:40.210][debug][#0:script\provider\client.lua:73]: Client init	{
+    capabilities = {
+        callHierarchy = {
+            dynamicRegistration = false,
+        },
+        textDocument = {
+            codeAction = {
+                codeActionLiteralSupport = {
+                    codeActionKind = {
+                        valueSet = {
+                            [01] = "",
+                            [02] = "Empty",
+                            [03] = "QuickFix",
+                            [04] = "Refactor",
+                            [05] = "RefactorExtract",
+                            [06] = "RefactorInline",
+                            [07] = "RefactorRewrite",
+                            [08] = "Source",
+                            [09] = "SourceOrganizeImports",
+                            [10] = "quickfix",
+                            [11] = "refactor",
+                            [12] = "refactor.extract",
+                            [13] = "refactor.inline",
+                            [14] = "refactor.rewrite",
+                            [15] = "source",
+                            [16] = "source.organizeImports",
+                        },
+                    },
+                },
+                dataSupport = true,
+                dynamicRegistration = false,
+                isPreferredSupport = true,
+                resolveSupport = {
+                    properties = {
+                        [1] = "edit",
+                    },
+                },
+            },
+            completion = {
+                completionItem = {
+                    commitCharactersSupport = false,
+                    deprecatedSupport = false,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    preselectSupport = false,
+                    snippetSupport = false,
+                },
+                completionItemKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                    },
+                },
+                contextSupport = false,
+                dynamicRegistration = false,
+            },
+            declaration = {
+                linkSupport = true,
+            },
+            definition = {
+                linkSupport = true,
+            },
+            documentHighlight = {
+                dynamicRegistration = false,
+            },
+            documentSymbol = {
+                dynamicRegistration = false,
+                hierarchicalDocumentSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            hover = {
+                contentFormat = {
+                    [1] = "markdown",
+                    [2] = "plaintext",
+                },
+                dynamicRegistration = false,
+            },
+            implementation = {
+                linkSupport = true,
+            },
+            publishDiagnostics = {
+                relatedInformation = true,
+                tagSupport = {
+                    valueSet = {
+                        [1] = 1,
+                        [2] = 2,
+                    },
+                },
+            },
+            references = {
+                dynamicRegistration = false,
+            },
+            rename = {
+                dynamicRegistration = false,
+                prepareSupport = true,
+            },
+            signatureHelp = {
+                dynamicRegistration = false,
+                signatureInformation = {
+                    activeParameterSupport = true,
+                    documentationFormat = {
+                        [1] = "markdown",
+                        [2] = "plaintext",
+                    },
+                    parameterInformation = {
+                        labelOffsetSupport = true,
+                    },
+                },
+            },
+            synchronization = {
+                didSave = true,
+                dynamicRegistration = false,
+                willSave = false,
+                willSaveWaitUntil = false,
+            },
+            typeDefinition = {
+                linkSupport = true,
+            },
+        },
+        window = {
+            showDocument = {
+                support = false,
+            },
+            showMessage = {
+                messageActionItem = {
+                    additionalPropertiesSupport = false,
+                },
+            },
+            workDoneProgress = true,
+        },
+        workspace = {
+            applyEdit = true,
+            configuration = true,
+            symbol = {
+                dynamicRegistration = false,
+                hierarchicalWorkspaceSymbolSupport = true,
+                symbolKind = {
+                    valueSet = {
+                        [01] = 1,
+                        [02] = 2,
+                        [03] = 3,
+                        [04] = 4,
+                        [05] = 5,
+                        [06] = 6,
+                        [07] = 7,
+                        [08] = 8,
+                        [09] = 9,
+                        [10] = 10,
+                        [11] = 11,
+                        [12] = 12,
+                        [13] = 13,
+                        [14] = 14,
+                        [15] = 15,
+                        [16] = 16,
+                        [17] = 17,
+                        [18] = 18,
+                        [19] = 19,
+                        [20] = 20,
+                        [21] = 21,
+                        [22] = 22,
+                        [23] = 23,
+                        [24] = 24,
+                        [25] = 25,
+                        [26] = 26,
+                    },
+                },
+            },
+            workspaceEdit = {
+                resourceOperations = {
+                    [1] = "rename",
+                    [2] = "create",
+                    [3] = "delete",
+                },
+            },
+            workspaceFolders = true,
+        },
+    },
+    clientInfo = {
+        name = "Neovim",
+        version = "0.8.0",
+    },
+    initializationOptions = {
+    },
+    processId = 10884,
+    rootPath = "C:\\Users\\user\\OneDrive\\Documents\\rojo-projects\\sweeper",
+    rootUri = "file:///C:/Users/user/OneDrive/Documents/rojo-projects/sweeper",
+    trace = "off",
+    workspaceFolders = {
+        [1] = {
+            name = "C:/Users/user/OneDrive/Documents/rojo-projects/sweeper",
+            uri = "file:///C:/Users/user/OneDrive/Documents/rojo-projects/sweeper",
+        },
+    },
+}
+[16:07:40.210][info] [#0:script\language.lua:135]: VSC language: nil
+[16:07:40.210][info] [#0:script\language.lua:136]: LS  language: en-us
+[16:07:40.210][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/user/OneDrive/Documents/rojo-projects/sweeper
+[16:07:40.210][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log/file_C_Users_user_OneDrive_Documents_rojo-projects_sweeper.log
