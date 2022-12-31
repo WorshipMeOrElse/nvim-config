@@ -1,12 +1,12 @@
-[20:47:33.239][info] [#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:54]: Lua Lsp startup, root: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
-[20:47:33.239][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:55]: ROOT:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
-[20:47:33.239][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:56]: LOGPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log
-[20:47:33.239][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:57]: METAPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/meta
-[20:47:33.442][info] [#0:script\pub\pub.lua:48]: Create brave:	1
-[20:47:33.442][info] [#0:script\pub\pub.lua:48]: Create brave:	2
-[20:47:33.442][info] [#0:script\pub\pub.lua:48]: Create brave:	3
-[20:47:33.442][info] [#0:script\pub\pub.lua:48]: Create brave:	4
-[20:47:33.442][debug][#0:script\service\service.lua:136]: 
+[15:25:15.790][info] [#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:54]: Lua Lsp startup, root: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[15:25:15.790][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:55]: ROOT:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[15:25:15.790][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:56]: LOGPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log
+[15:25:15.790][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:57]: METAPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/meta
+[15:25:17.290][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[15:25:17.290][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[15:25:17.290][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[15:25:17.290][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[15:25:17.290][debug][#0:script\service\service.lua:136]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 1.520 MB
@@ -28,7 +28,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[20:47:33.723][debug][#0:script\provider\client.lua:73]: Client init	{
+[15:25:17.743][debug][#0:script\provider\client.lua:73]: Client init	{
     capabilities = {
         callHierarchy = {
             dynamicRegistration = false,
@@ -265,18 +265,18 @@
     },
     initializationOptions = {
     },
-    processId = 11740,
-    rootPath = "C:\\Users\\user\\AppData\\Local\\nvim\\lua\\",
-    rootUri = "file:///C:/Users/user/AppData/Local/nvim/lua/",
+    processId = 6952,
+    rootPath = "C:\\Users\\user\\OneDrive\\Documents\\rojo-projects\\sweeper",
+    rootUri = "file:///C:/Users/user/OneDrive/Documents/rojo-projects/sweeper",
     trace = "off",
     workspaceFolders = {
         [1] = {
-            name = "C:/Users/user/AppData/Local/nvim/lua/",
-            uri = "file:///C:/Users/user/AppData/Local/nvim/lua/",
+            name = "C:/Users/user/OneDrive/Documents/rojo-projects/sweeper",
+            uri = "file:///C:/Users/user/OneDrive/Documents/rojo-projects/sweeper",
         },
     },
 }
-[20:47:33.723][info] [#0:script\language.lua:135]: VSC language: nil
-[20:47:33.723][info] [#0:script\language.lua:136]: LS  language: en-us
-[20:47:33.723][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/user/AppData/Local/nvim/lua/
-[20:47:33.723][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log/file_C_Users_user_AppData_Local_nvim_lua_.log
+[15:25:17.743][info] [#0:script\language.lua:135]: VSC language: nil
+[15:25:17.743][info] [#0:script\language.lua:136]: LS  language: en-us
+[15:25:17.743][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/user/OneDrive/Documents/rojo-projects/sweeper
+[15:25:17.743][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log/file_C_Users_user_OneDrive_Documents_rojo-projects_sweeper.log

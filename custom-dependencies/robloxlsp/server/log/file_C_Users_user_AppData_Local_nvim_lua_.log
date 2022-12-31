@@ -1,12 +1,12 @@
-[20:47:33.239][info] [#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:54]: Lua Lsp startup, root: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
-[20:47:33.239][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:55]: ROOT:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
-[20:47:33.239][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:56]: LOGPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log
-[20:47:33.239][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:57]: METAPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/meta
-[20:47:33.442][info] [#0:script\pub\pub.lua:48]: Create brave:	1
-[20:47:33.442][info] [#0:script\pub\pub.lua:48]: Create brave:	2
-[20:47:33.442][info] [#0:script\pub\pub.lua:48]: Create brave:	3
-[20:47:33.442][info] [#0:script\pub\pub.lua:48]: Create brave:	4
-[20:47:33.442][debug][#0:script\service\service.lua:136]: 
+[21:17:03.492][info] [#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:54]: Lua Lsp startup, root: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[21:17:03.492][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:55]: ROOT:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[21:17:03.492][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:56]: LOGPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log
+[21:17:03.492][debug][#0:C:\Users\user\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:57]: METAPATH:	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/meta
+[21:17:03.617][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[21:17:03.617][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[21:17:03.617][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[21:17:03.617][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[21:17:03.617][debug][#0:script\service\service.lua:136]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 1.520 MB
@@ -28,7 +28,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[20:47:33.723][debug][#0:script\provider\client.lua:73]: Client init	{
+[21:17:03.757][debug][#0:script\provider\client.lua:73]: Client init	{
     capabilities = {
         callHierarchy = {
             dynamicRegistration = false,
@@ -265,7 +265,7 @@
     },
     initializationOptions = {
     },
-    processId = 11740,
+    processId = 7840,
     rootPath = "C:\\Users\\user\\AppData\\Local\\nvim\\lua\\",
     rootUri = "file:///C:/Users/user/AppData/Local/nvim/lua/",
     trace = "off",
@@ -276,278 +276,63 @@
         },
     },
 }
-[20:47:33.723][info] [#0:script\language.lua:135]: VSC language: nil
-[20:47:33.723][info] [#0:script\language.lua:136]: LS  language: en-us
-[20:47:33.723][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/user/AppData/Local/nvim/lua/
-[20:47:33.723][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log/file_C_Users_user_AppData_Local_nvim_lua_.log
-[20:47:33.926][debug][#0:script\proto\proto.lua:131]: Method [initialize] takes [0.210]sec.
-[20:47:33.958][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/init.lua
-[20:47:33.958][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
-[20:47:33.958][warn] [#0:script\provider\provider.lua:52]: No config?	{
+[21:17:03.773][info] [#0:script\language.lua:135]: VSC language: nil
+[21:17:03.773][info] [#0:script\language.lua:136]: LS  language: en-us
+[21:17:03.773][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/user/AppData/Local/nvim/lua/
+[21:17:03.773][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/user/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log/file_C_Users_user_AppData_Local_nvim_lua_.log
+[21:17:03.851][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
+[21:17:03.867][warn] [#0:script\provider\provider.lua:52]: No config?	{
 }
-[20:47:36.254][debug][#0:script\provider\semantic-tokens.lua:111]: Refresh semantic tokens.
-[20:47:36.254][debug][#0:script\proto\proto.lua:131]: Method [initialized] takes [2.305]sec.
-[20:47:36.254][debug][#0:script\proto\proto.lua:131]: Method [textDocument/didOpen] takes [2.300]sec.
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:302]: Preload start.
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	1
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	2
-[20:47:36.254][warn] [#0:script\provider\provider.lua:52]: No config?	{
+[21:17:06.070][debug][#0:script\provider\semantic-tokens.lua:111]: Refresh semantic tokens.
+[21:17:06.070][debug][#0:script\proto\proto.lua:131]: Method [initialized] takes [2.208]sec.
+[21:17:06.070][debug][#0:script\proto\proto.lua:131]: Method [textDocument/didOpen] takes [2.205]sec.
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:302]: Preload start.
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	1
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:82]: Ignore directory:	2
+[21:17:06.070][warn] [#0:script\provider\provider.lua:52]: No config?	{
 }
-[20:47:36.254][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [2.302]sec.
-[20:47:36.254][warn] [#0:script\provider\provider.lua:52]: No config?	{
+[21:17:06.070][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [2.205]sec.
+[21:17:06.070][warn] [#0:script\provider\provider.lua:52]: No config?	{
 }
-[20:47:36.254][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [2.301]sec.
-[20:47:36.254][debug][#0:script\proto\proto.lua:131]: Method [textDocument/didOpen] takes [2.300]sec.
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:312]: Scan files at:	C:\Users\user\AppData\Local\nvim\lua
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/yuck.lua , size = 0.084 KB
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/whichkey.lua , size = 0.136 KB
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/treesitter.lua , size = 0.199 KB
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/theme.lua , size = 1.205 KB
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua , size = 0.232 KB
-[20:47:36.254][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/nvim-notify.lua , size = 0.143 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua , size = 0.920 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/luatree.lua , size = 0.305 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua , size = 0.655 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/lualine.lua , size = 2.502 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua , size = 0.352 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/diffview.lua , size = 0.092 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/colorizer.lua , size = 0.143 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/bufferline.lua , size = 0.332 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/completion.lua , size = 3.994 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/packwrap.lua , size = 0.438 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/init.lua , size = 0.475 KB
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:315]: Found 18 files.
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:317]: Loaded 17/18 files
-[20:47:36.270][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/options.lua , size = 3.328 KB
-[20:47:36.801][info] [#0:script\workspace\workspace.lua:317]: Loaded 18/18 files
-[20:47:36.801][info] [#0:script\workspace\workspace.lua:326]: Preload finish.
-[20:47:37.833][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/theme.lua	20
-[20:47:37.848][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/bufferline.lua	6
-[20:47:37.848][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	3
-[20:47:37.848][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/options.lua	2
-[20:47:37.848][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/nvim-notify.lua	1
-[20:47:37.879][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/completion.lua	2
-[20:47:37.879][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/lualine.lua	3
-[20:47:37.895][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/init.lua	2
-[20:47:37.895][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/luatree.lua	4
-[20:47:37.911][debug][#0:script\provider\diagnostic.lua:386]: 全文诊断耗时：	1.102
-[20:47:48.895][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
-[20:47:51.848][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
-[20:48:19.192][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua
-[20:48:20.286][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	1.025
-[20:48:33.411][debug][#0:script\service\service.lua:136]: 
-========= Medical Examination Report =========
-    --------------- Memory ---------------
-        Total: 46.808 MB
-        # 00 : 39.828 MB
-        # 01 : 1.687 MB
-        # 02 : 1.800 MB
-        # 03 : 1.693 MB
-        # 04 : 1.800 MB
-    --------------- Coroutine ---------------
-        Total:     42
-        Running:   0
-        Suspended: 0
-        Normal:    0
-        Dead:      42
-    --------------- Cache ---------------
-        Total: 4
-        Dead:  3
-    --------------- Proto ---------------
-        Holdon:   0
-        Waiting:  0
-==============================================
-[20:49:03.911][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/user/AppData/Local/nvim/init.lua
-[20:49:04.083][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
-[20:49:04.629][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua
-[20:49:05.192][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
-[20:49:05.895][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/init.lua
-[20:49:08.989][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/user/AppData/Local/nvim/init.lua
-[20:49:09.083][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
-[20:49:19.254][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua
-[20:49:22.489][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:22.864][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:22.989][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:23.864][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:24.036][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:24.504][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:24.520][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0010000000000048
-[20:49:24.676][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:24.692][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:24.864][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:24.879][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:24.926][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:24.942][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:25.004][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:25.176][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:25.270][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:25.301][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:25.379][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:25.520][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:25.598][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	2
-[20:49:25.723][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:25.817][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	2
-[20:49:26.020][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:26.895][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:27.895][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:28.911][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:28.942][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:29.083][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	1
-[20:49:29.926][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:49:33.958][debug][#0:script\service\service.lua:136]: 
-========= Medical Examination Report =========
-    --------------- Memory ---------------
-        Total: 52.139 MB
-        # 00 : 45.159 MB
-        # 01 : 1.687 MB
-        # 02 : 1.800 MB
-        # 03 : 1.693 MB
-        # 04 : 1.800 MB
-    --------------- Coroutine ---------------
-        Total:     207
-        Running:   0
-        Suspended: 0
-        Normal:    0
-        Dead:      207
-    --------------- Cache ---------------
-        Total: 28
-        Dead:  27
-    --------------- Proto ---------------
-        Holdon:   0
-        Waiting:  0
-==============================================
-[20:50:33.520][debug][#0:script\service\service.lua:136]: 
-========= Medical Examination Report =========
-    --------------- Memory ---------------
-        Total: 52.471 MB
-        # 00 : 45.491 MB
-        # 01 : 1.687 MB
-        # 02 : 1.800 MB
-        # 03 : 1.693 MB
-        # 04 : 1.800 MB
-    --------------- Coroutine ---------------
-        Total:     207
-        Running:   0
-        Suspended: 0
-        Normal:    0
-        Dead:      207
-    --------------- Cache ---------------
-        Total: 28
-        Dead:  27
-    --------------- Proto ---------------
-        Holdon:   0
-        Waiting:  0
-==============================================
-[20:51:34.254][debug][#0:script\service\service.lua:136]: 
-========= Medical Examination Report =========
-    --------------- Memory ---------------
-        Total: 52.804 MB
-        # 00 : 45.824 MB
-        # 01 : 1.687 MB
-        # 02 : 1.800 MB
-        # 03 : 1.693 MB
-        # 04 : 1.800 MB
-    --------------- Coroutine ---------------
-        Total:     207
-        Running:   0
-        Suspended: 0
-        Normal:    0
-        Dead:      207
-    --------------- Cache ---------------
-        Total: 28
-        Dead:  27
-    --------------- Proto ---------------
-        Holdon:   0
-        Waiting:  0
-==============================================
-[20:52:05.598][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua	4
-[20:52:07.629][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:52:08.629][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:52:17.520][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua
-[20:52:17.536][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	3
-[20:52:18.723][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	1.01
-[20:52:19.364][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:19.739][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	0.0
-[20:52:19.864][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:19.911][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:19.989][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:20.036][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:20.114][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:20.489][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:20.629][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:20.754][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:20.895][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:20.989][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:21.020][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:21.161][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:21.301][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:21.817][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.098][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.176][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.223][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.301][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.442][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.504][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.614][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.629][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.692][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:22.848][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:23.208][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	3
-[20:52:23.551][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:24.129][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	3
-[20:52:24.176][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:24.567][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:24.879][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:24.958][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:25.036][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:25.192][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:25.411][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:25.583][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:25.739][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:25.801][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:25.864][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:25.989][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:26.051][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:26.145][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:26.176][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:26.442][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:26.754][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:26.911][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	6
-[20:52:27.192][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	5
-[20:52:27.333][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:27.536][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:27.817][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:27.879][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:27.942][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:28.020][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:28.098][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:28.223][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:28.442][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:28.879][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	4
-[20:52:29.129][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	3
-[20:52:30.848][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	1.026
-[20:52:33.864][debug][#0:script\service\service.lua:136]: 
-========= Medical Examination Report =========
-    --------------- Memory ---------------
-        Total: 56.443 MB
-        # 00 : 49.463 MB
-        # 01 : 1.687 MB
-        # 02 : 1.800 MB
-        # 03 : 1.693 MB
-        # 04 : 1.800 MB
-    --------------- Coroutine ---------------
-        Total:     274
-        Running:   0
-        Suspended: 0
-        Normal:    0
-        Dead:      274
-    --------------- Cache ---------------
-        Total: 47
-        Dead:  46
-    --------------- Proto ---------------
-        Holdon:   0
-        Waiting:  0
-==============================================
-[20:52:36.051][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
-[20:52:40.411][info] [#0:script\provider\provider.lua:169]: Server shutdown.
-[20:52:40.442][info] [#0:script\provider\provider.lua:164]: Server exited.
+[21:17:06.070][debug][#0:script\proto\proto.lua:131]: Method [workspace/didChangeConfiguration] takes [2.206]sec.
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:312]: Scan files at:	C:\Users\user\AppData\Local\nvim\lua
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/yuck.lua , size = 0.084 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/whichkey.lua , size = 0.136 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/treesitter.lua , size = 0.199 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/theme.lua , size = 1.205 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/telescope.lua , size = 0.232 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/nvim-notify.lua , size = 0.143 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/mason.lua , size = 0.920 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/luatree.lua , size = 0.305 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua , size = 0.655 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/lualine.lua , size = 2.502 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/diffview.lua , size = 0.092 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/completion.lua , size = 3.994 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua , size = 0.645 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/colorizer.lua , size = 0.143 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/bufferline.lua , size = 0.332 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:315]: Found 18 files.
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:317]: Loaded 15/18 files
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/packwrap.lua , size = 0.438 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/init.lua , size = 0.475 KB
+[21:17:06.070][info] [#0:script\workspace\workspace.lua:233]: Preload file at: file:///C%3A/Users/user/AppData/Local/nvim/lua/options.lua , size = 3.328 KB
+[21:17:06.851][info] [#0:script\workspace\workspace.lua:317]: Loaded 18/18 files
+[21:17:06.851][info] [#0:script\workspace\workspace.lua:326]: Preload finish.
+[21:17:07.882][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/theme.lua	20
+[21:17:07.898][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/bufferline.lua	6
+[21:17:07.898][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/harpoon.lua	6
+[21:17:07.898][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/options.lua	2
+[21:17:07.898][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/nvim-notify.lua	1
+[21:17:07.914][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/luatree.lua	4
+[21:17:07.929][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/lualine.lua	3
+[21:17:07.929][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugins/init.lua	2
+[21:17:07.961][debug][#0:script\provider\diagnostic.lua:228]: publishDiagnostics	file:///C%3A/Users/user/AppData/Local/nvim/lua/plugin_config/completion.lua	2
+[21:17:07.961][debug][#0:script\provider\diagnostic.lua:386]: 全文诊断耗时：	1.108
+[21:17:22.992][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/colorizer.lua
+[21:17:25.054][debug][#0:script\provider\diagnostic.lua:346]: 全文诊断耗时：	1.028
+[21:17:34.945][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/colorizer.lua
+[21:17:35.117][debug][#0:script\provider\provider.lua:282]: didClose	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
+[21:17:35.992][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/init.lua
+[21:17:36.539][debug][#0:script\provider\provider.lua:270]: didOpen	file:///C:/Users/user/AppData/Local/nvim/lua/plugin_config/colorizer.lua
+[21:17:45.664][info] [#0:script\provider\provider.lua:169]: Server shutdown.
+[21:17:45.711][info] [#0:script\provider\provider.lua:164]: Server exited.
