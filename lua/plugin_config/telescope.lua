@@ -6,6 +6,6 @@ packwrap:AddPlugin("nvim-telescope/telescope.nvim", function()
       colorscheme = {
         enable_preview = true
       }
-    }
+    },
   })
 end)

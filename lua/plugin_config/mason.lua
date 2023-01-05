@@ -1,5 +1,7 @@
 local packwrap = require("plugins/packwrap")
 
+packwrap:AddPlugin("neovim/nvim-lspconfig")
+
 packwrap:AddPlugin("williamboman/mason.nvim", function()
   require("mason").setup()
 end)
@@ -8,11 +10,18 @@ packwrap:AddPlugin("williamboman/mason-lspconfig.nvim", function()
   require("mason-lspconfig").setup({
     ensure_installed = { "sumneko_lua" }
   })
-end)
 
-packwrap:AddPlugin("neovim/nvim-lspconfig", function()
-  require("lspconfig").sumneko_lua.setup({
-    cmd = { "C:\\Users\\user\\AppData\\Local\\nvim\\custom-dependencies\\robloxlsp\\server\\bin\\Windows\\lua-language-server" }
+  require("mason-lspconfig").setup_handlers({
+    function (server_name)
+      if server_name == "sumneko_lua" then return end
+      require("lspconfig")[server_name].setup({})
+    end,
+
+    ["sumneko_lua"] = function()
+      require("lspconfig").sumneko_lua.setup({
+        cmd = { vim.fn.stdpath("config") .. "\\custom-dependencies\\robloxlsp\\server\\bin\\Windows\\lua-language-server" }
+      })
+    end
   })
 end)
 
