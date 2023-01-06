@@ -1,12 +1,12 @@
-[04:49:35.953][info] [#0:C:\Users\seanj\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:54]: Lua Lsp startup, root: 	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server
-[04:49:35.953][debug][#0:C:\Users\seanj\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:55]: ROOT:	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server
-[04:49:35.953][debug][#0:C:\Users\seanj\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:56]: LOGPATH:	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log
-[04:49:35.953][debug][#0:C:\Users\seanj\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:57]: METAPATH:	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server/meta
-[04:49:36.031][info] [#0:script\pub\pub.lua:48]: Create brave:	1
-[04:49:36.031][info] [#0:script\pub\pub.lua:48]: Create brave:	2
-[04:49:36.047][info] [#0:script\pub\pub.lua:48]: Create brave:	3
-[04:49:36.047][info] [#0:script\pub\pub.lua:48]: Create brave:	4
-[04:49:36.047][debug][#0:script\service\service.lua:136]: 
+[05:12:09.231][info] [#0:C:\Users\seanj\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:54]: Lua Lsp startup, root: 	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[05:12:09.231][debug][#0:C:\Users\seanj\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:55]: ROOT:	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server
+[05:12:09.231][debug][#0:C:\Users\seanj\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:56]: LOGPATH:	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log
+[05:12:09.231][debug][#0:C:\Users\seanj\AppData\Local\nvim\custom-dependencies\robloxlsp\server\main.lua:57]: METAPATH:	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server/meta
+[05:12:09.996][info] [#0:script\pub\pub.lua:48]: Create brave:	1
+[05:12:09.996][info] [#0:script\pub\pub.lua:48]: Create brave:	2
+[05:12:09.996][info] [#0:script\pub\pub.lua:48]: Create brave:	3
+[05:12:09.996][info] [#0:script\pub\pub.lua:48]: Create brave:	4
+[05:12:09.996][debug][#0:script\service\service.lua:136]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 1.520 MB
@@ -28,7 +28,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[04:49:36.156][debug][#0:script\provider\client.lua:73]: Client init	{
+[05:12:10.215][debug][#0:script\provider\client.lua:73]: Client init	{
     capabilities = {
         callHierarchy = {
             dynamicRegistration = false,
@@ -265,7 +265,7 @@
     },
     initializationOptions = {
     },
-    processId = 12764,
+    processId = 6316,
     rootPath = "C:\\Users\\seanj\\AppData\\Local\\nvim\\lua\\",
     rootUri = "file:///C:/Users/seanj/AppData/Local/nvim/lua/",
     trace = "off",
@@ -276,7 +276,7 @@
         },
     },
 }
-[04:49:36.156][info] [#0:script\language.lua:135]: VSC language: nil
-[04:49:36.156][info] [#0:script\language.lua:136]: LS  language: en-us
-[04:49:36.156][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/seanj/AppData/Local/nvim/lua/
-[04:49:36.156][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log/file_C_Users_seanj_AppData_Local_nvim_lua_.log
+[05:12:10.215][info] [#0:script\language.lua:135]: VSC language: nil
+[05:12:10.215][info] [#0:script\language.lua:136]: LS  language: en-us
+[05:12:10.215][info] [#0:script\workspace\workspace.lua:32]: Workspace inited: 	file:///C:/Users/seanj/AppData/Local/nvim/lua/
+[05:12:10.215][info] [#0:script\workspace\workspace.lua:39]: Log path: 	C:/Users/seanj/AppData/Local/nvim/custom-dependencies/robloxlsp/server/log/file_C_Users_seanj_AppData_Local_nvim_lua_.log

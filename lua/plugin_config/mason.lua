@@ -18,14 +18,9 @@ require("mason-lspconfig").setup_handlers({
 })
 
 require("mason-null-ls").setup({
-  ensure_installed = { "stylua", "selene" }
+  ensure_installed = { "stylua", "selene" },
+  automatic_setup = true
 })
 
-local null_ls = require("null-ls")
-
-null_ls.setup({
-  sources = {
-    null_ls.builtins.formatting.stylua,
-    null_ls.builtins.diagnostics.selene
-  }
-})
+require("null-ls").setup()
+require("mason-null-ls").setup_handlers()
