@@ -13,7 +13,6 @@ function module:Initialize()
     for _, data in ipairs(plugin_data) do
       use {
         data.plugin_name,
-        config = data.config_function
       }
     end
   end)
