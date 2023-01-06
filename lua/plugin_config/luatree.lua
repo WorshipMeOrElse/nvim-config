@@ -1,8 +1,3 @@
-local packwrap = require("plugins/packwrap")
-
-packwrap:AddPlugin("nvim-tree/nvim-web-devicons")
-packwrap:AddPlugin("nvim-tree/nvim-tree.lua")
-
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 

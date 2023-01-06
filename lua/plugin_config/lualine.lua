@@ -1,7 +1,3 @@
-local packwrap = require("plugins/packwrap")
-
-packwrap:AddPlugin("nvim-lualine/lualine.nvim")
-
 local config = {
   options = {
       component_separators = '',

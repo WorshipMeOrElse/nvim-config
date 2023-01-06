@@ -1,15 +1,3 @@
-local packwrap = require("plugins/packwrap")
-
-packwrap:AddPlugin("hrsh7th/cmp-nvim-lsp")
-packwrap:AddPlugin("hrsh7th/cmp-buffer")
-packwrap:AddPlugin("hrsh7th/cmp-path")
-packwrap:AddPlugin("hrsh7th/cmp-cmdline")
-
-packwrap:AddPlugin("L3MON4D3/LuaSnip")
-packwrap:AddPlugin("saadparwaiz1/cmp_luasnip")
-
-packwrap:AddPlugin("hrsh7th/nvim-cmp")
-
 local cmp = require("cmp")
 local luasnip = require("luasnip")
 

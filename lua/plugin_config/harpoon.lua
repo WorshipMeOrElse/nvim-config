@@ -1,7 +1,3 @@
-local packwrap = require("plugins/packwrap")
-
-packwrap:AddPlugin("ThePrimeagen/harpoon")
-
 vim.keymap.set("n", "<leader>ha", require("harpoon.mark").add_file)
 
 vim.keymap.set("n", "<leader>hl", require("harpoon.ui").nav_next)

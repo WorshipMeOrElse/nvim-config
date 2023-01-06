@@ -1,12 +1,3 @@
-local packwrap = require("plugins/packwrap")
-
-packwrap:AddPlugin("neovim/nvim-lspconfig")
-
-packwrap:AddPlugin("williamboman/mason.nvim")
-packwrap:AddPlugin("williamboman/mason-lspconfig.nvim")
-packwrap:AddPlugin("jayp0521/mason-null-ls.nvim")
-packwrap:AddPlugin("jose-elias-alvarez/null-ls.nvim")
-
 require("mason").setup()
 
 require("mason-lspconfig").setup({

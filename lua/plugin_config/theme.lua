@@ -1,7 +1,3 @@
-local packwrap = require("plugins/packwrap")
-
-packwrap:AddPlugin("NTBBloodbath/doom-one.nvim")
-
 -- Add color to cursor
 vim.g.doom_one_cursor_coloring = false
 -- Set :terminal colors
