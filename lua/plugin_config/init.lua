@@ -10,7 +10,6 @@ local files = {
   "lualine",
   "bufferline",
   "completion",
-  "harpoon",
 }
 
 for _, value in ipairs(files) do

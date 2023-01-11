@@ -55,6 +55,21 @@ cmp.setup {
     -- Accept currently selected item. If none selected, `select` first item.
     -- Set `select` to `false` to only confirm explicitly selected items.
     ["<CR>"] = cmp.mapping.confirm { select = true },
+    ["<Tab>"] = cmp.mapping(function(fallback)
+      if luasnip.expand_or_locally_jumpable() then
+        luasnip.expand_or_jump()
+      else
+        fallback()
+      end
+    end, { "i", "s" }),
+
+    ["<S-Tab>"] = cmp.mapping(function(fallback)
+      if luasnip.jumpable(-1) then
+        luasnip.jump(-1)
+      else
+        fallback()
+      end
+    end, { "i", "s" })
   },
   formatting = {
     fields = { "kind", "abbr", "menu" },
@@ -92,12 +107,4 @@ cmp.setup {
   },
 }
 
-vim.keymap.set(
-  'i',
-  "<Tab>",
-  function()
-    if luasnip.expand_or_jumpable() then
-      luasnip.expand_or_jump()
-    end
-  end
-)
+require("snippets")

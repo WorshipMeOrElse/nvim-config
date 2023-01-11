@@ -24,8 +24,6 @@ return require("packer").startup(function(use)
 
   use "sindrets/diffview.nvim"
 
-  use "ThePrimeagen/harpoon"
-
   use {
     "nvim-tree/nvim-web-devicons",
     requires = { "nvim-tree/nvim-tree.lua" }
